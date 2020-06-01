@@ -1,0 +1,2 @@
+#!/bin/bash
+openstack subnet show -c allocation_pools -c cidr -c enable_dhcp -c id -c network_id -c project_id $@

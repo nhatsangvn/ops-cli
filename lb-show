@@ -1,0 +1,2 @@
+#!/bin/bash
+openstack loadbalancer show -c name -c operating_status -c project_id -c provisioning_status -c vip_address $@

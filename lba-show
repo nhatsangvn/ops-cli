@@ -1,0 +1,2 @@
+#!/bin/bash
+openstack loadbalancer amphora show -c id -c loadbalancer_id -c compute_id -c lb_network_ip -c vrrp_ip -c ha_ip -c status $@

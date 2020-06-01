@@ -1,0 +1,2 @@
+#!/bin/bash
+openstack floating ip show -c fixed_ip_address -c floating_ip_address -c port_id -c project_id -c status $@

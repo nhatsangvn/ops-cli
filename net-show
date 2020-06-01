@@ -1,0 +1,2 @@
+#!/bin/bash
+openstack network show -c id -c project_id -c name -c subnets -c shared -c status $@

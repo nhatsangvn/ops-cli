@@ -1,0 +1,2 @@
+#!/bin/bash
+openstack server show -c id -c name -c status -c flavor -c OS-EXT-SRV-ATTR:host -c OS-EXT-SRV-ATTR:instance_name -c addresses -c volumes_attached -c project_id -c security_groups $@

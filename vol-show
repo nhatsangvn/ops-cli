@@ -1,0 +1,2 @@
+#!/bin/bash
+openstack volume show -c os-vol-host-attr:host -c created_at -c status -c type -c size -c name -c id $@

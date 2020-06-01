@@ -1,0 +1,2 @@
+#!/bin/bash
+openstack loadbalancer amphora list --loadbalancer $@

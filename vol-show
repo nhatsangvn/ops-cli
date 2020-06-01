@@ -1,2 +1,2 @@
 #!/bin/bash
-openstack volume show -c os-vol-host-attr:host -c volume_image_metadata $@ -c created_at -c status -c type -c size -c name -c id $@
+openstack volume show -c os-vol-host-attr:host -c volume_image_metadata --fit -c created_at -c status -c type -c size -c name -c id $@
